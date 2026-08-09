@@ -1,0 +1,612 @@
+     1→▲ Next.js 16.1.3 (Turbopack)
+     2→- Local:         http://localhost:3000
+     3→- Network:       http://21.0.3.206:3000
+     4→- Environments: .env
+     5→
+     6→✓ Starting...
+     7→Attention: Next.js now collects completely anonymous telemetry regarding usage.
+     8→This information is used to shape Next.js' roadmap and prioritize features.
+     9→You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+    10→https://nextjs.org/telemetry
+    11→
+    12→
+    13→  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+    14→  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+    15→
+    16→        - include was updated to add '.next/dev/types/**/*.ts'
+    17→
+    18→  The following mandatory changes were made to your tsconfig.json:
+    19→
+    20→        - jsx was set to react-jsx (next.js uses the React automatic runtime)
+    21→
+    22→✓ Ready in 662ms
+    23→○ Compiling / ...
+    24→ GET / 200 in 4.1s (compile: 3.9s, render: 228ms)
+    25→ GET / 200 in 3.1s (compile: 3.0s, render: 53ms)
+    26→ GET / 200 in 26ms (compile: 2ms, render: 23ms)
+    27→✓ Compiled in 22ms
+    28→⨯ ./src/app/globals.css:2:2
+    29→Module not found: Can't resolve 'tw-animate-css'
+    30→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+    31→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+    32→ [90m   |[39m  [31m[1m^[22m[39m
+    33→ [90m 3 |[39m
+    34→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+    35→ [90m 5 |[39m[0m
+    36→
+    37→
+    38→
+    39→Import trace:
+    40→  Client Component Browser:
+    41→    ./src/app/globals.css [Client Component Browser]
+    42→    ./src/app/layout.tsx [Server Component]
+    43→
+    44→https://nextjs.org/docs/messages/module-not-found
+    45→
+    46→
+    47→⨯ ./src/app/globals.css:2:2
+    48→Module not found: Can't resolve 'tw-animate-css'
+    49→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+    50→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+    51→ [90m   |[39m  [31m[1m^[22m[39m
+    52→ [90m 3 |[39m
+    53→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+    54→ [90m 5 |[39m[0m
+    55→
+    56→
+    57→
+    58→Import trace:
+    59→  Client Component Browser:
+    60→    ./src/app/globals.css [Client Component Browser]
+    61→    ./src/app/layout.tsx [Server Component]
+    62→
+    63→https://nextjs.org/docs/messages/module-not-found
+    64→
+    65→
+    66→⨯ ./src/app/globals.css:2:2
+    67→Module not found: Can't resolve 'tw-animate-css'
+    68→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+    69→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+    70→ [90m   |[39m  [31m[1m^[22m[39m
+    71→ [90m 3 |[39m
+    72→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+    73→ [90m 5 |[39m[0m
+    74→
+    75→
+    76→
+    77→Import trace:
+    78→  Client Component Browser:
+    79→    ./src/app/globals.css [Client Component Browser]
+    80→    ./src/app/layout.tsx [Server Component]
+    81→
+    82→https://nextjs.org/docs/messages/module-not-found
+    83→
+    84→
+    85→⨯ ./src/app/globals.css:2:2
+    86→Module not found: Can't resolve 'tw-animate-css'
+    87→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+    88→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+    89→ [90m   |[39m  [31m[1m^[22m[39m
+    90→ [90m 3 |[39m
+    91→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+    92→ [90m 5 |[39m[0m
+    93→
+    94→
+    95→
+    96→Import trace:
+    97→  Client Component Browser:
+    98→    ./src/app/globals.css [Client Component Browser]
+    99→    ./src/app/layout.tsx [Server Component]
+   100→
+   101→https://nextjs.org/docs/messages/module-not-found
+   102→
+   103→
+   104→⨯ ./src/app/globals.css:2:2
+   105→Module not found: Can't resolve 'tw-animate-css'
+   106→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   107→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   108→ [90m   |[39m  [31m[1m^[22m[39m
+   109→ [90m 3 |[39m
+   110→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   111→ [90m 5 |[39m[0m
+   112→
+   113→
+   114→
+   115→Import trace:
+   116→  Client Component Browser:
+   117→    ./src/app/globals.css [Client Component Browser]
+   118→    ./src/app/layout.tsx [Server Component]
+   119→
+   120→https://nextjs.org/docs/messages/module-not-found
+   121→
+   122→
+   123→⨯ ./src/app/globals.css:2:2
+   124→Module not found: Can't resolve 'tw-animate-css'
+   125→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   126→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   127→ [90m   |[39m  [31m[1m^[22m[39m
+   128→ [90m 3 |[39m
+   129→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   130→ [90m 5 |[39m[0m
+   131→
+   132→
+   133→
+   134→Import trace:
+   135→  Client Component Browser:
+   136→    ./src/app/globals.css [Client Component Browser]
+   137→    ./src/app/layout.tsx [Server Component]
+   138→
+   139→https://nextjs.org/docs/messages/module-not-found
+   140→
+   141→
+   142→✓ Compiled in 383ms
+   143→⨯ ./src/app/globals.css:2:2
+   144→Module not found: Can't resolve 'tw-animate-css'
+   145→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   146→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   147→ [90m   |[39m  [31m[1m^[22m[39m
+   148→ [90m 3 |[39m
+   149→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   150→ [90m 5 |[39m[0m
+   151→
+   152→
+   153→
+   154→Import trace:
+   155→  Client Component Browser:
+   156→    ./src/app/globals.css [Client Component Browser]
+   157→    ./src/app/layout.tsx [Server Component]
+   158→
+   159→https://nextjs.org/docs/messages/module-not-found
+   160→
+   161→
+   162→ GET / 500 in 1314ms (compile: 1212ms, render: 102ms)
+   163→⚠ Cross origin request detected from preview-chat-67fcee30-0d69-4c5f-9998-46a0c781d362.space-z.ai to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+   164→Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+   165→⨯ ./src/app/globals.css:2:2
+   166→Module not found: Can't resolve 'tw-animate-css'
+   167→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   168→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   169→ [90m   |[39m  [31m[1m^[22m[39m
+   170→ [90m 3 |[39m
+   171→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   172→ [90m 5 |[39m[0m
+   173→
+   174→
+   175→
+   176→Import trace:
+   177→  Client Component Browser:
+   178→    ./src/app/globals.css [Client Component Browser]
+   179→    ./src/app/layout.tsx [Server Component]
+   180→
+   181→https://nextjs.org/docs/messages/module-not-found
+   182→
+   183→
+   184→ GET / 500 in 19ms (compile: 9ms, render: 9ms)
+   185→⨯ ./src/app/globals.css:2:2
+   186→Module not found: Can't resolve 'tw-animate-css'
+   187→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   188→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   189→ [90m   |[39m  [31m[1m^[22m[39m
+   190→ [90m 3 |[39m
+   191→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   192→ [90m 5 |[39m[0m
+   193→
+   194→
+   195→
+   196→Import trace:
+   197→  Client Component Browser:
+   198→    ./src/app/globals.css [Client Component Browser]
+   199→    ./src/app/layout.tsx [Server Component]
+   200→
+   201→https://nextjs.org/docs/messages/module-not-found
+   202→
+   203→
+   204→ GET / 500 in 20ms (compile: 10ms, render: 9ms)
+   205→⨯ ./src/app/globals.css:2:2
+   206→Module not found: Can't resolve 'tw-animate-css'
+   207→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   208→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   209→ [90m   |[39m  [31m[1m^[22m[39m
+   210→ [90m 3 |[39m
+   211→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   212→ [90m 5 |[39m[0m
+   213→
+   214→
+   215→
+   216→Import trace:
+   217→  Client Component Browser:
+   218→    ./src/app/globals.css [Client Component Browser]
+   219→    ./src/app/layout.tsx [Server Component]
+   220→
+   221→https://nextjs.org/docs/messages/module-not-found
+   222→
+   223→
+   224→⨯ ./src/app/globals.css:2:2
+   225→Module not found: Can't resolve 'tw-animate-css'
+   226→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   227→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   228→ [90m   |[39m  [31m[1m^[22m[39m
+   229→ [90m 3 |[39m
+   230→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   231→ [90m 5 |[39m[0m
+   232→
+   233→
+   234→
+   235→Import trace:
+   236→  Client Component Browser:
+   237→    ./src/app/globals.css [Client Component Browser]
+   238→    ./src/app/layout.tsx [Server Component]
+   239→
+   240→https://nextjs.org/docs/messages/module-not-found
+   241→
+   242→
+   243→⨯ ./src/app/globals.css:2:2
+   244→Module not found: Can't resolve 'tw-animate-css'
+   245→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   246→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   247→ [90m   |[39m  [31m[1m^[22m[39m
+   248→ [90m 3 |[39m
+   249→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   250→ [90m 5 |[39m[0m
+   251→
+   252→
+   253→
+   254→Import trace:
+   255→  Client Component Browser:
+   256→    ./src/app/globals.css [Client Component Browser]
+   257→    ./src/app/layout.tsx [Server Component]
+   258→
+   259→https://nextjs.org/docs/messages/module-not-found
+   260→
+   261→
+   262→✓ Compiled in 75ms
+   263→⨯ ./src/app/globals.css:2:2
+   264→Module not found: Can't resolve 'tw-animate-css'
+   265→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   266→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   267→ [90m   |[39m  [31m[1m^[22m[39m
+   268→ [90m 3 |[39m
+   269→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   270→ [90m 5 |[39m[0m
+   271→
+   272→
+   273→
+   274→Import trace:
+   275→  Client Component Browser:
+   276→    ./src/app/globals.css [Client Component Browser]
+   277→    ./src/app/layout.tsx [Server Component]
+   278→
+   279→https://nextjs.org/docs/messages/module-not-found
+   280→
+   281→
+   282→
+   283→./src/lib/tools-data.ts:1:1
+   284→Export ColorSwatch doesn't exist in target module
+   285→[0m[31m[1m>[22m[39m[90m  1 |[39m [36mimport[39m {
+   286→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   287→[31m[1m>[22m[39m[90m  2 |[39m   [33mBraces[39m[33m,[39m
+   288→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   289→[31m[1m>[22m[39m[90m  3 |[39m   [33mLock[39m[33m,[39m
+   290→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   291→[31m[1m>[22m[39m[90m  4 |[39m   [33mFingerprint[39m[33m,[39m
+   292→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   293→[31m[1m>[22m[39m[90m  5 |[39m   [33mLink2[39m[33m,[39m
+   294→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   295→[31m[1m>[22m[39m[90m  6 |[39m   [33mHash[39m[33m,[39m
+   296→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   297→[31m[1m>[22m[39m[90m  7 |[39m   [33mFileText[39m[33m,[39m
+   298→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   299→[31m[1m>[22m[39m[90m  8 |[39m   [33mCode2[39m[33m,[39m
+   300→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   301→[31m[1m>[22m[39m[90m  9 |[39m   [33mBinary[39m[33m,[39m
+   302→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   303→[31m[1m>[22m[39m[90m 10 |[39m   [33mClock[39m[33m,[39m
+   304→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   305→[31m[1m>[22m[39m[90m 11 |[39m   [33mCalendar[39m[33m,[39m
+   306→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   307→[31m[1m>[22m[39m[90m 12 |[39m   [33mRegex[39m[33m,[39m
+   308→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   309→[31m[1m>[22m[39m[90m 13 |[39m   [33mColorSwatch[39m[33m,[39m
+   310→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   311→[31m[1m>[22m[39m[90m 14 |[39m   [33mImage[39m[33m,[39m
+   312→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   313→[31m[1m>[22m[39m[90m 15 |[39m   [33mTable[39m[33m,[39m
+   314→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   315→[31m[1m>[22m[39m[90m 16 |[39m   [33mType[39m[33m,[39m
+   316→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   317→[31m[1m>[22m[39m[90m 17 |[39m   [33mMail[39m[33m,[39m
+   318→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   319→[31m[1m>[22m[39m[90m 18 |[39m   [33mShield[39m[33m,[39m
+   320→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   321→[31m[1m>[22m[39m[90m 19 |[39m   [33mKeyRound[39m[33m,[39m
+   322→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   323→[31m[1m>[22m[39m[90m 20 |[39m   [33mQrCode[39m[33m,[39m
+   324→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   325→[31m[1m>[22m[39m[90m 21 |[39m   [33mDiff[39m[33m,[39m
+   326→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   327→[31m[1m>[22m[39m[90m 22 |[39m   [33mAsterisk[39m[33m,[39m
+   328→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   329→[31m[1m>[22m[39m[90m 23 |[39m   [33mPercent[39m[33m,[39m
+   330→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   331→[31m[1m>[22m[39m[90m 24 |[39m   [33mWrapText[39m[33m,[39m
+   332→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   333→[31m[1m>[22m[39m[90m 25 |[39m   [33mCaseSensitive[39m[33m,[39m
+   334→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   335→[31m[1m>[22m[39m[90m 26 |[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   336→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   337→ [90m 27 |[39m [36mimport[39m { type [33mLucideIcon[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   338→ [90m 28 |[39m
+   339→ [90m 29 |[39m [36mexport[39m [36minterface[39m [33mTool[39m {[0m
+   340→
+   341→The export ColorSwatch was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+   342→Did you mean to import FolderSearch?
+   343→All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+   344→
+   345→Import traces:
+   346→  Client Component Browser:
+   347→    ./src/lib/tools-data.ts [Client Component Browser]
+   348→    ./src/components/pages/AllToolsPage.tsx [Client Component Browser]
+   349→    ./src/app/page.tsx [Client Component Browser]
+   350→    ./src/app/page.tsx [Server Component]
+   351→
+   352→  Client Component SSR:
+   353→    ./src/lib/tools-data.ts [Client Component SSR]
+   354→    ./src/components/pages/AllToolsPage.tsx [Client Component SSR]
+   355→    ./src/app/page.tsx [Client Component SSR]
+   356→    ./src/app/page.tsx [Server Component]
+   357→
+   358→
+   359→
+   360→./src/lib/tools-data.ts:1:1
+   361→Export ColorSwatch doesn't exist in target module
+   362→[0m[31m[1m>[22m[39m[90m  1 |[39m [36mimport[39m {
+   363→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   364→[31m[1m>[22m[39m[90m  2 |[39m   [33mBraces[39m[33m,[39m
+   365→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   366→[31m[1m>[22m[39m[90m  3 |[39m   [33mLock[39m[33m,[39m
+   367→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   368→[31m[1m>[22m[39m[90m  4 |[39m   [33mFingerprint[39m[33m,[39m
+   369→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   370→[31m[1m>[22m[39m[90m  5 |[39m   [33mLink2[39m[33m,[39m
+   371→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   372→[31m[1m>[22m[39m[90m  6 |[39m   [33mHash[39m[33m,[39m
+   373→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   374→[31m[1m>[22m[39m[90m  7 |[39m   [33mFileText[39m[33m,[39m
+   375→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   376→[31m[1m>[22m[39m[90m  8 |[39m   [33mCode2[39m[33m,[39m
+   377→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   378→[31m[1m>[22m[39m[90m  9 |[39m   [33mBinary[39m[33m,[39m
+   379→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   380→[31m[1m>[22m[39m[90m 10 |[39m   [33mClock[39m[33m,[39m
+   381→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   382→[31m[1m>[22m[39m[90m 11 |[39m   [33mCalendar[39m[33m,[39m
+   383→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   384→[31m[1m>[22m[39m[90m 12 |[39m   [33mRegex[39m[33m,[39m
+   385→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   386→[31m[1m>[22m[39m[90m 13 |[39m   [33mColorSwatch[39m[33m,[39m
+   387→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   388→[31m[1m>[22m[39m[90m 14 |[39m   [33mImage[39m[33m,[39m
+   389→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   390→[31m[1m>[22m[39m[90m 15 |[39m   [33mTable[39m[33m,[39m
+   391→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   392→[31m[1m>[22m[39m[90m 16 |[39m   [33mType[39m[33m,[39m
+   393→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   394→[31m[1m>[22m[39m[90m 17 |[39m   [33mMail[39m[33m,[39m
+   395→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   396→[31m[1m>[22m[39m[90m 18 |[39m   [33mShield[39m[33m,[39m
+   397→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   398→[31m[1m>[22m[39m[90m 19 |[39m   [33mKeyRound[39m[33m,[39m
+   399→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   400→[31m[1m>[22m[39m[90m 20 |[39m   [33mQrCode[39m[33m,[39m
+   401→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   402→[31m[1m>[22m[39m[90m 21 |[39m   [33mDiff[39m[33m,[39m
+   403→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   404→[31m[1m>[22m[39m[90m 22 |[39m   [33mAsterisk[39m[33m,[39m
+   405→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   406→[31m[1m>[22m[39m[90m 23 |[39m   [33mPercent[39m[33m,[39m
+   407→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   408→[31m[1m>[22m[39m[90m 24 |[39m   [33mWrapText[39m[33m,[39m
+   409→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   410→[31m[1m>[22m[39m[90m 25 |[39m   [33mCaseSensitive[39m[33m,[39m
+   411→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   412→[31m[1m>[22m[39m[90m 26 |[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   413→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   414→ [90m 27 |[39m [36mimport[39m { type [33mLucideIcon[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   415→ [90m 28 |[39m
+   416→ [90m 29 |[39m [36mexport[39m [36minterface[39m [33mTool[39m {[0m
+   417→
+   418→The export ColorSwatch was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+   419→Did you mean to import FolderSearch?
+   420→All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+   421→
+   422→Import traces:
+   423→  Client Component Browser:
+   424→    ./src/lib/tools-data.ts [Client Component Browser]
+   425→    ./src/components/pages/AllToolsPage.tsx [Client Component Browser]
+   426→    ./src/app/page.tsx [Client Component Browser]
+   427→    ./src/app/page.tsx [Server Component]
+   428→
+   429→  Client Component SSR:
+   430→    ./src/lib/tools-data.ts [Client Component SSR]
+   431→    ./src/components/pages/AllToolsPage.tsx [Client Component SSR]
+   432→    ./src/app/page.tsx [Client Component SSR]
+   433→    ./src/app/page.tsx [Server Component]
+   434→
+   435→
+   436→ GET / 500 in 3.4s (compile: 3.4s, render: 8ms)
+   437→✓ Compiled in 54ms
+   438→⨯ ./src/app/globals.css:2:2
+   439→Module not found: Can't resolve 'tw-animate-css'
+   440→[0m [90m 1 |[39m [33m@[39m[36mimport[39m [32m"tailwindcss"[39m[33m;[39m
+   441→[31m[1m>[22m[39m[90m 2 |[39m [33m@[39m[36mimport[39m [32m"tw-animate-css"[39m[33m;[39m
+   442→ [90m   |[39m  [31m[1m^[22m[39m
+   443→ [90m 3 |[39m
+   444→ [90m 4 |[39m [33m@[39mcustom[33m-[39mvariant dark ([33m&[39m[33m:[39mis([33m.[39mdark [33m*[39m))[33m;[39m
+   445→ [90m 5 |[39m[0m
+   446→
+   447→
+   448→
+   449→Import trace:
+   450→  Client Component Browser:
+   451→    ./src/app/globals.css [Client Component Browser]
+   452→    ./src/app/layout.tsx [Server Component]
+   453→
+   454→https://nextjs.org/docs/messages/module-not-found
+   455→
+   456→
+   457→
+   458→./src/lib/tools-data.ts:1:1
+   459→Export ColorSwatch doesn't exist in target module
+   460→[0m[31m[1m>[22m[39m[90m  1 |[39m [36mimport[39m {
+   461→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   462→[31m[1m>[22m[39m[90m  2 |[39m   [33mBraces[39m[33m,[39m
+   463→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   464→[31m[1m>[22m[39m[90m  3 |[39m   [33mLock[39m[33m,[39m
+   465→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   466→[31m[1m>[22m[39m[90m  4 |[39m   [33mFingerprint[39m[33m,[39m
+   467→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   468→[31m[1m>[22m[39m[90m  5 |[39m   [33mLink2[39m[33m,[39m
+   469→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   470→[31m[1m>[22m[39m[90m  6 |[39m   [33mHash[39m[33m,[39m
+   471→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   472→[31m[1m>[22m[39m[90m  7 |[39m   [33mFileText[39m[33m,[39m
+   473→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   474→[31m[1m>[22m[39m[90m  8 |[39m   [33mCode2[39m[33m,[39m
+   475→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   476→[31m[1m>[22m[39m[90m  9 |[39m   [33mBinary[39m[33m,[39m
+   477→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   478→[31m[1m>[22m[39m[90m 10 |[39m   [33mClock[39m[33m,[39m
+   479→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   480→[31m[1m>[22m[39m[90m 11 |[39m   [33mCalendar[39m[33m,[39m
+   481→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   482→[31m[1m>[22m[39m[90m 12 |[39m   [33mRegex[39m[33m,[39m
+   483→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   484→[31m[1m>[22m[39m[90m 13 |[39m   [33mColorSwatch[39m[33m,[39m
+   485→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   486→[31m[1m>[22m[39m[90m 14 |[39m   [33mImage[39m[33m,[39m
+   487→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   488→[31m[1m>[22m[39m[90m 15 |[39m   [33mTable[39m[33m,[39m
+   489→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   490→[31m[1m>[22m[39m[90m 16 |[39m   [33mType[39m[33m,[39m
+   491→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   492→[31m[1m>[22m[39m[90m 17 |[39m   [33mMail[39m[33m,[39m
+   493→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   494→[31m[1m>[22m[39m[90m 18 |[39m   [33mShield[39m[33m,[39m
+   495→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   496→[31m[1m>[22m[39m[90m 19 |[39m   [33mKeyRound[39m[33m,[39m
+   497→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   498→[31m[1m>[22m[39m[90m 20 |[39m   [33mQrCode[39m[33m,[39m
+   499→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   500→[31m[1m>[22m[39m[90m 21 |[39m   [33mDiff[39m[33m,[39m
+   501→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   502→[31m[1m>[22m[39m[90m 22 |[39m   [33mAsterisk[39m[33m,[39m
+   503→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   504→[31m[1m>[22m[39m[90m 23 |[39m   [33mPercent[39m[33m,[39m
+   505→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   506→[31m[1m>[22m[39m[90m 24 |[39m   [33mWrapText[39m[33m,[39m
+   507→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   508→[31m[1m>[22m[39m[90m 25 |[39m   [33mCaseSensitive[39m[33m,[39m
+   509→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   510→[31m[1m>[22m[39m[90m 26 |[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   511→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   512→ [90m 27 |[39m [36mimport[39m { type [33mLucideIcon[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   513→ [90m 28 |[39m
+   514→ [90m 29 |[39m [36mexport[39m [36minterface[39m [33mTool[39m {[0m
+   515→
+   516→The export ColorSwatch was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+   517→Did you mean to import FolderSearch?
+   518→All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+   519→
+   520→Import traces:
+   521→  Client Component Browser:
+   522→    ./src/lib/tools-data.ts [Client Component Browser]
+   523→    ./src/components/pages/AllToolsPage.tsx [Client Component Browser]
+   524→    ./src/app/page.tsx [Client Component Browser]
+   525→    ./src/app/page.tsx [Server Component]
+   526→
+   527→  Client Component SSR:
+   528→    ./src/lib/tools-data.ts [Client Component SSR]
+   529→    ./src/components/pages/AllToolsPage.tsx [Client Component SSR]
+   530→    ./src/app/page.tsx [Client Component SSR]
+   531→    ./src/app/page.tsx [Server Component]
+   532→
+   533→
+   534→
+   535→./src/lib/tools-data.ts:1:1
+   536→Export ColorSwatch doesn't exist in target module
+   537→[0m[31m[1m>[22m[39m[90m  1 |[39m [36mimport[39m {
+   538→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   539→[31m[1m>[22m[39m[90m  2 |[39m   [33mBraces[39m[33m,[39m
+   540→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   541→[31m[1m>[22m[39m[90m  3 |[39m   [33mLock[39m[33m,[39m
+   542→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   543→[31m[1m>[22m[39m[90m  4 |[39m   [33mFingerprint[39m[33m,[39m
+   544→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   545→[31m[1m>[22m[39m[90m  5 |[39m   [33mLink2[39m[33m,[39m
+   546→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   547→[31m[1m>[22m[39m[90m  6 |[39m   [33mHash[39m[33m,[39m
+   548→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   549→[31m[1m>[22m[39m[90m  7 |[39m   [33mFileText[39m[33m,[39m
+   550→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   551→[31m[1m>[22m[39m[90m  8 |[39m   [33mCode2[39m[33m,[39m
+   552→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   553→[31m[1m>[22m[39m[90m  9 |[39m   [33mBinary[39m[33m,[39m
+   554→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   555→[31m[1m>[22m[39m[90m 10 |[39m   [33mClock[39m[33m,[39m
+   556→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   557→[31m[1m>[22m[39m[90m 11 |[39m   [33mCalendar[39m[33m,[39m
+   558→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   559→[31m[1m>[22m[39m[90m 12 |[39m   [33mRegex[39m[33m,[39m
+   560→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   561→[31m[1m>[22m[39m[90m 13 |[39m   [33mColorSwatch[39m[33m,[39m
+   562→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   563→[31m[1m>[22m[39m[90m 14 |[39m   [33mImage[39m[33m,[39m
+   564→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   565→[31m[1m>[22m[39m[90m 15 |[39m   [33mTable[39m[33m,[39m
+   566→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   567→[31m[1m>[22m[39m[90m 16 |[39m   [33mType[39m[33m,[39m
+   568→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   569→[31m[1m>[22m[39m[90m 17 |[39m   [33mMail[39m[33m,[39m
+   570→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   571→[31m[1m>[22m[39m[90m 18 |[39m   [33mShield[39m[33m,[39m
+   572→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   573→[31m[1m>[22m[39m[90m 19 |[39m   [33mKeyRound[39m[33m,[39m
+   574→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   575→[31m[1m>[22m[39m[90m 20 |[39m   [33mQrCode[39m[33m,[39m
+   576→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   577→[31m[1m>[22m[39m[90m 21 |[39m   [33mDiff[39m[33m,[39m
+   578→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   579→[31m[1m>[22m[39m[90m 22 |[39m   [33mAsterisk[39m[33m,[39m
+   580→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   581→[31m[1m>[22m[39m[90m 23 |[39m   [33mPercent[39m[33m,[39m
+   582→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   583→[31m[1m>[22m[39m[90m 24 |[39m   [33mWrapText[39m[33m,[39m
+   584→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   585→[31m[1m>[22m[39m[90m 25 |[39m   [33mCaseSensitive[39m[33m,[39m
+   586→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   587→[31m[1m>[22m[39m[90m 26 |[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   588→ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   589→ [90m 27 |[39m [36mimport[39m { type [33mLucideIcon[39m } [36mfrom[39m [32m"lucide-react"[39m[33m;[39m
+   590→ [90m 28 |[39m
+   591→ [90m 29 |[39m [36mexport[39m [36minterface[39m [33mTool[39m {[0m
+   592→
+   593→The export ColorSwatch was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+   594→Did you mean to import FolderSearch?
+   595→All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+   596→
+   597→Import traces:
+   598→  Client Component Browser:
+   599→    ./src/lib/tools-data.ts [Client Component Browser]
+   600→    ./src/components/pages/AllToolsPage.tsx [Client Component Browser]
+   601→    ./src/app/page.tsx [Client Component Browser]
+   602→    ./src/app/page.tsx [Server Component]
+   603→
+   604→  Client Component SSR:
+   605→    ./src/lib/tools-data.ts [Client Component SSR]
+   606→    ./src/components/pages/AllToolsPage.tsx [Client Component SSR]
+   607→    ./src/app/page.tsx [Client Component SSR]
+   608→    ./src/app/page.tsx [Server Component]
+   609→
+   610→
+   611→ GET / 500 in 47ms (compile: 37ms, render: 10ms)
+   612→
