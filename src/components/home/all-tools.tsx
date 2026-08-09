@@ -23,7 +23,7 @@ export default function AllTools() {
             placeholder="Filter tools..."
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
-            className="w-full rounded-lg border border-[#334155] bg-[#1E293B] py-2.5 pl-9 pr-4 text-sm text-[#E2E8F0] placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF]"
+            className="w-full rounded-lg border border-[#334155] bg-[#1A1F3A] py-2.5 pl-9 pr-4 text-sm text-[#F1F5F9] placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF]"
           />
         </div>
       </div>
@@ -48,13 +48,13 @@ export default function AllTools() {
                   <button
                     key={tool.id}
                     onClick={() => navigate({ type: 'tool', toolId: tool.id })}
-                    className="tool-card group flex items-center gap-3 rounded-lg border border-[#334155] bg-[#1E293B] p-4 text-left transition-all"
+                    className="tool-card group flex items-center gap-3 rounded-lg border border-[#334155] bg-[#1A1F3A] p-4 text-left transition-all"
                   >
                     <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-[#00D9FF]/10">
                       <Icon className="h-4 w-4 text-[#00D9FF]" />
                     </div>
                     <div className="min-w-0 flex-1">
-                      <div className="font-medium text-[#E2E8F0] group-hover:text-[#00D9FF]">
+                      <div className="font-medium text-[#F1F5F9] group-hover:text-[#00D9FF]">
                         {tool.name}
                       </div>
                       <div className="truncate text-xs text-[#94A3B8]">

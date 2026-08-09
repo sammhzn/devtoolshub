@@ -20,7 +20,7 @@ interface BlogPostProps {
 
 function CodeBlock({ children }: { children: React.ReactNode }) {
   return (
-    <div className="bg-[#0B1120] border border-[#334155] rounded-lg p-4 font-mono text-sm text-[#E2E8F0] overflow-x-auto">
+    <div className="bg-[#0B1120] border border-[#334155] rounded-lg p-4 font-mono text-sm text-[#F1F5F9] overflow-x-auto">
       {children}
     </div>
   );
@@ -408,9 +408,9 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
 
   if (!postData) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-[#0F172A]">
+      <div className="flex min-h-screen items-center justify-center bg-[#0A0E27]">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-[#E2E8F0]">Post Not Found</h1>
+          <h1 className="text-2xl font-bold text-[#F1F5F9]">Post Not Found</h1>
           <p className="mt-2 text-[#94A3B8]">The blog post you are looking for does not exist.</p>
           <button
             onClick={() => navigate({ type: 'blog' })}
@@ -425,7 +425,7 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
   }
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#0A0E27]">
       {/* Top Bar */}
       <div className="border-b border-[#334155]">
         <div className="mx-auto max-w-4xl px-4 py-4 sm:px-6 lg:px-8">
@@ -445,7 +445,7 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
           <span className="inline-flex items-center rounded-full bg-[#A78BFA]/10 px-3 py-0.5 text-xs font-medium text-[#A78BFA]">
             {postData.category}
           </span>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight text-[#E2E8F0] sm:text-4xl lg:text-5xl">
+          <h1 className="mt-4 text-3xl font-bold tracking-tight text-[#F1F5F9] sm:text-4xl lg:text-5xl">
             {postData.title}
           </h1>
           <div className="mt-6 flex flex-wrap items-center gap-5 text-sm text-[#94A3B8]">
@@ -484,7 +484,7 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
                   <a
                     key={item.id}
                     href={`#${item.id}`}
-                    className="rounded-md px-3 py-1.5 text-sm text-[#94A3B8] transition-colors hover:bg-[#1E293B] hover:text-[#00D9FF]"
+                    className="rounded-md px-3 py-1.5 text-sm text-[#94A3B8] transition-colors hover:bg-[#1A1F3A] hover:text-[#00D9FF]"
                   >
                     {item.heading}
                   </a>
@@ -496,7 +496,7 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
           {/* Article Body */}
           <article className="min-w-0 flex-1 max-w-3xl">
             {/* Mobile TOC */}
-            <div className="mb-8 lg:hidden rounded-lg border border-[#334155] bg-[#1E293B] p-4">
+            <div className="mb-8 lg:hidden rounded-lg border border-[#334155] bg-[#1A1F3A] p-4">
               <h3 className="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#94A3B8]">
                 <List className="h-4 w-4" />
                 Table of Contents
@@ -506,7 +506,7 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
                   <a
                     key={item.id}
                     href={`#${item.id}`}
-                    className="rounded-md bg-[#0F172A] px-3 py-1.5 text-xs text-[#94A3B8] transition-colors hover:text-[#00D9FF]"
+                    className="rounded-md bg-[#0A0E27] px-3 py-1.5 text-xs text-[#94A3B8] transition-colors hover:text-[#00D9FF]"
                   >
                     {item.heading}
                   </a>
@@ -519,7 +519,7 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
               <section key={section.id} className="mb-10">
                 <h2
                   id={section.id}
-                  className="mb-4 text-2xl font-bold text-[#E2E8F0] scroll-mt-24"
+                  className="mb-4 text-2xl font-bold text-[#F1F5F9] scroll-mt-24"
                 >
                   {section.heading}
                 </h2>
@@ -529,8 +529,8 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
                     className="mb-4 text-base leading-relaxed text-[#94A3B8]"
                     dangerouslySetInnerHTML={{
                       __html: paragraph
-                        .replace(/\*\*(.+?)\*\*/g, '<strong class="text-[#E2E8F0]">$1</strong>')
-                        .replace(/`(.+?)`/g, '<code class="rounded bg-[#1E293B] px-1.5 py-0.5 text-sm font-mono text-[#00D9FF]">$1</code>'),
+                        .replace(/\*\*(.+?)\*\*/g, '<strong class="text-[#F1F5F9]">$1</strong>')
+                        .replace(/`(.+?)`/g, '<code class="rounded bg-[#1A1F3A] px-1.5 py-0.5 text-sm font-mono text-[#00D9FF]">$1</code>'),
                     }}
                   />
                 ))}
@@ -540,8 +540,8 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
 
             {/* CTA */}
             {relatedTool && (
-              <div className="my-12 rounded-xl border border-[#334155] bg-gradient-to-br from-[#1E293B] to-[#0F172A] p-8 text-center">
-                <h3 className="text-xl font-bold text-[#E2E8F0]">Try it now</h3>
+              <div className="my-12 rounded-xl border border-[#334155] bg-gradient-to-br from-[#1A1F3A] to-[#0F172A] p-8 text-center">
+                <h3 className="text-xl font-bold text-[#F1F5F9]">Try it now</h3>
                 <p className="mt-2 text-[#94A3B8]">
                   Put what you learned into practice with our{' '}
                   <span className="text-[#00D9FF]">{relatedTool.name}</span>.
@@ -559,18 +559,18 @@ export default function BlogPost({ slug: slugProp }: BlogPostProps) {
             {/* Related Posts */}
             {relatedPosts.length > 0 && (
               <div className="mt-16 border-t border-[#334155] pt-10">
-                <h3 className="mb-6 text-xl font-bold text-[#E2E8F0]">Related Posts</h3>
+                <h3 className="mb-6 text-xl font-bold text-[#F1F5F9]">Related Posts</h3>
                 <div className="grid gap-4 sm:grid-cols-2">
                   {relatedPosts.map((post) => (
                     <button
                       key={post.slug}
                       onClick={() => navigate({ type: 'blog-post', slug: post.slug })}
-                      className="group flex flex-col rounded-lg border border-[#334155] bg-[#1E293B] p-5 text-left transition-all hover:border-[#00D9FF]/40"
+                      className="group flex flex-col rounded-lg border border-[#334155] bg-[#1A1F3A] p-5 text-left transition-all hover:border-[#00D9FF]/40"
                     >
                       <span className="text-xs font-medium text-[#A78BFA]">
                         {post.category}
                       </span>
-                      <h4 className="mt-1 text-sm font-semibold text-[#E2E8F0] group-hover:text-[#00D9FF] transition-colors">
+                      <h4 className="mt-1 text-sm font-semibold text-[#F1F5F9] group-hover:text-[#00D9FF] transition-colors">
                         {post.title}
                       </h4>
                       <span className="mt-2 inline-flex items-center gap-1 text-xs text-[#94A3B8]">

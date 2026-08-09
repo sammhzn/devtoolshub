@@ -8,7 +8,7 @@ export default function Footer() {
   const { navigate } = useNav();
 
   return (
-    <footer className="mt-auto border-t border-[#334155] bg-[#0B1120]">
+    <footer className="mt-auto border-t border-[#334155] bg-[#0F172A]">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}

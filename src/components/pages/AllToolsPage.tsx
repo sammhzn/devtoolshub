@@ -35,11 +35,11 @@ export default function AllToolsPage() {
   );
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#0A0E27]">
       {/* Header */}
       <div className="border-b border-[#334155]">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-[#E2E8F0] sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-[#F1F5F9] sm:text-5xl">
             All{' '}
             <span className="bg-gradient-to-r from-[#00D9FF] to-[#A78BFA] bg-clip-text text-transparent">
               Tools
@@ -61,7 +61,7 @@ export default function AllToolsPage() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search tools..."
-            className="w-full rounded-xl border border-[#334155] bg-[#1E293B] py-3.5 pl-12 pr-4 text-[#E2E8F0] placeholder-[#94A3B8] outline-none transition-colors focus:border-[#00D9FF]"
+            className="w-full rounded-xl border border-[#334155] bg-[#1A1F3A] py-3.5 pl-12 pr-4 text-[#F1F5F9] placeholder-[#94A3B8] outline-none transition-colors focus:border-[#00D9FF]"
           />
         </div>
 
@@ -72,7 +72,7 @@ export default function AllToolsPage() {
             className={`rounded-lg px-4 py-2 text-sm font-medium transition-all ${
               activeCategory === null
                 ? 'bg-[#00D9FF] text-[#0F172A]'
-                : 'border border-[#334155] bg-[#1E293B] text-[#94A3B8] hover:border-[#00D9FF]/40 hover:text-[#E2E8F0]'
+                : 'border border-[#334155] bg-[#1A1F3A] text-[#94A3B8] hover:border-[#00D9FF]/40 hover:text-[#F1F5F9]'
             }`}
           >
             All Categories
@@ -84,7 +84,7 @@ export default function AllToolsPage() {
               className={`rounded-lg px-4 py-2 text-sm font-medium transition-all ${
                 activeCategory === cat.name
                   ? 'bg-[#00D9FF] text-[#0F172A]'
-                  : 'border border-[#334155] bg-[#1E293B] text-[#94A3B8] hover:border-[#00D9FF]/40 hover:text-[#E2E8F0]'
+                  : 'border border-[#334155] bg-[#1A1F3A] text-[#94A3B8] hover:border-[#00D9FF]/40 hover:text-[#F1F5F9]'
               }`}
             >
               {cat.name}
@@ -94,7 +94,7 @@ export default function AllToolsPage() {
 
         {/* Results Count */}
         <p className="mb-6 text-sm text-[#94A3B8]">
-          Showing <span className="text-[#E2E8F0] font-medium">{totalResults}</span>{' '}
+          Showing <span className="text-[#F1F5F9] font-medium">{totalResults}</span>{' '}
           tool{totalResults !== 1 ? 's' : ''}
           {searchQuery && (
             <>
@@ -107,15 +107,15 @@ export default function AllToolsPage() {
       {/* Tools Grid by Category */}
       <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
         {filteredCategories.length === 0 ? (
-          <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-12 text-center">
+          <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-12 text-center">
             <Search className="mx-auto mb-4 h-10 w-10 text-[#94A3B8]" />
-            <h3 className="text-lg font-semibold text-[#E2E8F0]">No tools found</h3>
+            <h3 className="text-lg font-semibold text-[#F1F5F9]">No tools found</h3>
             <p className="mt-2 text-[#94A3B8]">Try adjusting your search or filter criteria.</p>
           </div>
         ) : (
           filteredCategories.map((category) => (
             <div key={category.name} className="mb-12 last:mb-0">
-              <h2 className="mb-5 text-xl font-bold text-[#E2E8F0]">{category.name}</h2>
+              <h2 className="mb-5 text-xl font-bold text-[#F1F5F9]">{category.name}</h2>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {category.tools.map((tool) => {
                   const Icon = tool.icon;
@@ -123,12 +123,12 @@ export default function AllToolsPage() {
                     <button
                       key={tool.id}
                       onClick={() => navigate({ type: 'tool', toolId: tool.id })}
-                      className="group flex flex-col items-start rounded-xl border border-[#334155] bg-[#1E293B] p-5 text-left transition-all duration-200 hover:border-[#00D9FF]/40 hover:shadow-lg hover:shadow-[#00D9FF]/5"
+                      className="group flex flex-col items-start rounded-xl border border-[#334155] bg-[#1A1F3A] p-5 text-left transition-all duration-200 hover:border-[#00D9FF]/40 hover:shadow-lg hover:shadow-[#00D9FF]/5"
                     >
                       <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[#00D9FF]/10 to-[#A78BFA]/10 border border-[#334155]">
                         <Icon className="h-5 w-5 text-[#00D9FF]" />
                       </div>
-                      <h3 className="text-base font-semibold text-[#E2E8F0] group-hover:text-[#00D9FF] transition-colors">
+                      <h3 className="text-base font-semibold text-[#F1F5F9] group-hover:text-[#00D9FF] transition-colors">
                         {tool.name}
                       </h3>
                       <p className="mt-1.5 flex-1 text-sm text-[#94A3B8] leading-relaxed">

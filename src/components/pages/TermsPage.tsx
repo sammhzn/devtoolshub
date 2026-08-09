@@ -4,14 +4,14 @@ import { FileText, CheckCircle, Scale, AlertTriangle, Info, RefreshCw, Landmark,
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#0A0E27]">
       {/* Header */}
       <div className="border-b border-[#334155]">
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8 text-center">
           <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#00D9FF]/20 to-[#00D9FF]/5 border border-[#334155]">
             <FileText className="h-8 w-8 text-[#00D9FF]" />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-[#E2E8F0]">Terms of Service</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-[#F1F5F9]">Terms of Service</h1>
           <p className="mt-3 text-sm text-[#94A3B8]">Last updated: August 1, 2025</p>
         </div>
       </div>
@@ -35,9 +35,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <CheckCircle className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Acceptance of Terms</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Acceptance of Terms</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 By accessing and using DevToolsHub, you acknowledge that you have read, understood,
                 and agree to be bound by these Terms of Service, as well as our Privacy Policy,
@@ -55,9 +55,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <Scale className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Use of Service</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Use of Service</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 You may use DevToolsHub and its tools for lawful purposes and in accordance with
                 these Terms. You agree not to use the Service in any way that violates any
@@ -79,9 +79,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <Info className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Intellectual Property</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Intellectual Property</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 The Service and its original content, features, and functionality are and will
                 remain the exclusive property of DevToolsHub and its licensors. The Service is
@@ -100,9 +100,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <AlertTriangle className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Limitation of Liability</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Limitation of Liability</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 In no event shall DevToolsHub, its directors, employees, partners, agents,
                 suppliers, or affiliates be liable for any indirect, incidental, special,
@@ -124,9 +124,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <AlertTriangle className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Disclaimer</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Disclaimer</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 The Service is provided on an "as is" and "as available" basis without any
                 warranties of any kind, either express or implied, including but not limited to
@@ -146,9 +146,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <RefreshCw className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Changes to These Terms</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Changes to These Terms</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 We reserve the right to modify or replace these Terms at any time at our sole
                 discretion. If a revision is material, we will provide at least 30 days' notice
@@ -167,9 +167,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <Landmark className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Governing Law</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Governing Law</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 These Terms shall be governed and construed in accordance with the laws of the
                 United States, without regard to its conflict of law provisions. Our failure to
@@ -188,9 +188,9 @@ export default function TermsPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <Mail className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Contact Us</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Contact Us</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 If you have any questions about these Terms of Service, please contact us at
                 contact@devtoolshub.com. We will do our best to respond to all inquiries promptly.

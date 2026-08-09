@@ -154,7 +154,7 @@ export default function JsonFormatter() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0F172A] text-[#E2E8F0]">
+    <div className="min-h-screen bg-[#0A0E27] text-[#F1F5F9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
         {/* Header */}
@@ -183,14 +183,14 @@ export default function JsonFormatter() {
             </button>
             <button
               onClick={handleMinify}
-              className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
+              className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
             >
               <ArrowRight className="h-4 w-4" />
               Minify
             </button>
             <button
               onClick={handleValidate}
-              className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
+              className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
             >
               {validationStatus === 'valid' ? (
                 <CheckCircle2 className="h-4 w-4 text-green-400" />
@@ -203,21 +203,21 @@ export default function JsonFormatter() {
             </button>
             <button
               onClick={handleCopy}
-              className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
+              className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
             >
               <Copy className="h-4 w-4" />
               Copy Output
             </button>
             <button
               onClick={handleClear}
-              className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
+              className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
             >
               <Trash2 className="h-4 w-4" />
               Clear
             </button>
             <button
               onClick={handleDownload}
-              className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
+              className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-4 py-2 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-2"
             >
               <Download className="h-4 w-4" />
               Download .json
@@ -254,7 +254,7 @@ export default function JsonFormatter() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder='Paste your JSON here...'
-                className="w-full rounded-lg border border-[#334155] bg-[#1E293B] p-4 text-sm text-[#E2E8F0] font-mono placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF] resize-y min-h-[200px]"
+                className="w-full rounded-lg border border-[#334155] bg-[#1A1F3A] p-4 text-sm text-[#F1F5F9] font-mono placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF] resize-y min-h-[200px]"
                 spellCheck={false}
               />
             </div>
@@ -269,7 +269,7 @@ export default function JsonFormatter() {
                 value={output}
                 readOnly
                 placeholder='Formatted JSON will appear here...'
-                className="w-full rounded-lg border border-[#334155] bg-[#1E293B] p-4 text-sm text-[#E2E8F0] font-mono placeholder-[#94A3B8] outline-none resize-y min-h-[200px]"
+                className="w-full rounded-lg border border-[#334155] bg-[#1A1F3A] p-4 text-sm text-[#F1F5F9] font-mono placeholder-[#94A3B8] outline-none resize-y min-h-[200px]"
                 spellCheck={false}
               />
             </div>
@@ -297,7 +297,7 @@ export default function JsonFormatter() {
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                  className="w-full flex items-center justify-between p-4 text-left hover:bg-[#1E293B] transition-colors"
+                  className="w-full flex items-center justify-between p-4 text-left hover:bg-[#1A1F3A] transition-colors"
                 >
                   <span className="font-medium text-sm">{item.question}</span>
                   <ChevronDown
@@ -326,7 +326,7 @@ export default function JsonFormatter() {
                 <button
                   key={tool.id}
                   onClick={() => navigate({ type: 'tool', toolId: tool.id })}
-                  className="p-4 rounded-lg border border-[#334155] bg-[#1E293B] hover:border-[#00D9FF] hover:shadow-[0_0_20px_rgba(0,217,255,0.1)] transition-all text-left group"
+                  className="p-4 rounded-lg border border-[#334155] bg-[#1A1F3A] hover:border-[#00D9FF] hover:shadow-[0_0_20px_rgba(0,217,255,0.1)] transition-all text-left group"
                 >
                   <div className="flex items-center gap-3 mb-2">
                     <div className="p-2 rounded-md bg-[#00D9FF]/10 group-hover:bg-[#00D9FF]/20 transition-colors">

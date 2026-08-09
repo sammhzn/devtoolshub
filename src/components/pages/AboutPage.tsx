@@ -16,14 +16,14 @@ export default function AboutPage() {
   const { navigate } = useNav();
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#0A0E27]">
       {/* Hero */}
       <div className="border-b border-[#334155]">
         <div className="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8 text-center">
           <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#00D9FF]/20 to-[#A78BFA]/20 border border-[#334155]">
             <Code2 className="h-8 w-8 text-[#00D9FF]" />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-[#E2E8F0] sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-[#F1F5F9] sm:text-5xl">
             About{' '}
             <span className="bg-gradient-to-r from-[#00D9FF] to-[#A78BFA] bg-clip-text text-transparent">
               DevToolsHub
@@ -40,8 +40,8 @@ export default function AboutPage() {
       {/* Mission */}
       <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#E2E8F0] mb-4">Our Mission</h2>
-          <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-[#F1F5F9] mb-4">Our Mission</h2>
+          <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6 sm:p-8">
             <p className="text-[#94A3B8] leading-relaxed">
               Developer tools are essential to the software development workflow, yet too many
               of them require sign-ups, store your data on remote servers, or hide critical features
@@ -55,7 +55,7 @@ export default function AboutPage() {
 
         {/* What We Offer */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#E2E8F0] mb-6">What We Offer</h2>
+          <h2 className="text-2xl font-bold text-[#F1F5F9] mb-6">What We Offer</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {[
               {
@@ -93,14 +93,14 @@ export default function AboutPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#334155] bg-[#1E293B] p-6 transition-all hover:border-[#334155]/80"
+                className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6 transition-all hover:border-[#334155]/80"
               >
                 <div
                   className={`mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br ${item.bg}`}
                 >
                   <item.icon className={`h-5 w-5 ${item.color}`} />
                 </div>
-                <h3 className="text-lg font-semibold text-[#E2E8F0]">{item.title}</h3>
+                <h3 className="text-lg font-semibold text-[#F1F5F9]">{item.title}</h3>
                 <p className="mt-2 text-sm text-[#94A3B8] leading-relaxed">{item.description}</p>
               </div>
             ))}
@@ -109,8 +109,8 @@ export default function AboutPage() {
 
         {/* How It Works */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#E2E8F0] mb-4">How It Works</h2>
-          <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-[#F1F5F9] mb-4">How It Works</h2>
+          <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6 sm:p-8">
             <p className="text-[#94A3B8] leading-relaxed mb-4">
               Every tool on DevToolsHub is built using modern web technologies and runs
               entirely on the client side. When you use a tool, the processing happens
@@ -134,8 +134,8 @@ export default function AboutPage() {
 
         {/* Tech Stack */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#E2E8F0] mb-4">Tech Stack</h2>
-          <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-[#F1F5F9] mb-4">Tech Stack</h2>
+          <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6 sm:p-8">
             <div className="grid gap-6 sm:grid-cols-2">
               {[
                 {
@@ -167,7 +167,7 @@ export default function AboutPage() {
                   <dt className="text-xs font-semibold uppercase tracking-wider text-[#94A3B8]">
                     {item.label}
                   </dt>
-                  <dd className="mt-1 text-base text-[#E2E8F0]">{item.value}</dd>
+                  <dd className="mt-1 text-base text-[#F1F5F9]">{item.value}</dd>
                 </div>
               ))}
             </div>
@@ -176,8 +176,8 @@ export default function AboutPage() {
 
         {/* Open Source */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#E2E8F0] mb-4">Open Source</h2>
-          <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-[#F1F5F9] mb-4">Open Source</h2>
+          <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6 sm:p-8">
             <div className="flex flex-col sm:flex-row items-start gap-5">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-[#A78BFA]/20 to-[#A78BFA]/5 border border-[#A78BFA]/20">
                 <Github className="h-6 w-6 text-[#A78BFA]" />
@@ -201,8 +201,8 @@ export default function AboutPage() {
 
         {/* Contact */}
         <section>
-          <h2 className="text-2xl font-bold text-[#E2E8F0] mb-4">Get in Touch</h2>
-          <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6 sm:p-8">
+          <h2 className="text-2xl font-bold text-[#F1F5F9] mb-4">Get in Touch</h2>
+          <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6 sm:p-8">
             <div className="flex flex-col sm:flex-row items-start gap-5">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-[#00D9FF]/20 to-[#00D9FF]/5 border border-[#00D9FF]/20">
                 <Mail className="h-6 w-6 text-[#00D9FF]" />

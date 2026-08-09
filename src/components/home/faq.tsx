@@ -16,14 +16,14 @@ export default function FAQ() {
         {faqItems.map((item, i) => (
           <div
             key={i}
-            className="rounded-lg border border-[#334155] bg-[#1E293B]"
+            className="rounded-lg border border-[#334155] bg-[#1A1F3A]"
           >
             <button
               onClick={() => setOpenIndex(openIndex === i ? null : i)}
               className="flex w-full items-center justify-between px-5 py-4 text-left"
               aria-expanded={openIndex === i}
             >
-              <span className="pr-4 text-sm font-medium text-[#E2E8F0]">
+              <span className="pr-4 text-sm font-medium text-[#F1F5F9]">
                 {item.question}
               </span>
               <ChevronDown

@@ -4,14 +4,14 @@ import { Shield, Lock, Eye, Database, Server, Users, FileEdit, Mail } from 'luci
 
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#0A0E27]">
       {/* Header */}
       <div className="border-b border-[#334155]">
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8 text-center">
           <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#A78BFA]/20 to-[#A78BFA]/5 border border-[#334155]">
             <Shield className="h-8 w-8 text-[#A78BFA]" />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-[#E2E8F0]">Privacy Policy</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-[#F1F5F9]">Privacy Policy</h1>
           <p className="mt-3 text-sm text-[#94A3B8]">Last updated: August 1, 2025</p>
         </div>
       </div>
@@ -35,11 +35,11 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <Database className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Information We Collect</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Information We Collect</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
-                <strong className="text-[#E2E8F0]">We do not collect personal information.</strong> All
+                <strong className="text-[#F1F5F9]">We do not collect personal information.</strong> All
                 of our tools process data entirely within your browser. We do not have access to,
                 do not store, and do not log any data you input into our tools. When you use a
                 tool such as the JSON Formatter, Hash Generator, or Base64 Encoder, the processing
@@ -61,9 +61,9 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <Eye className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Cookies</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Cookies</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 We use a minimal number of cookies to provide basic website functionality. We do
                 not use tracking cookies or advertising cookies. The cookies we use may include
@@ -81,9 +81,9 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <Server className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Third-Party Services</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Third-Party Services</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 Our website may use third-party services for analytics or hosting. These services
                 may collect anonymous usage data as described above. We carefully select services
@@ -101,9 +101,9 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <Lock className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Data Security</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Data Security</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 Because all tool processing happens client-side in your browser, your data enjoys
                 the highest level of security possible: it never leaves your device. There is no
@@ -125,9 +125,9 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <Users className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Children's Privacy</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Children's Privacy</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 Our services are not directed at children under the age of 13. We do not
                 knowingly collect personal information from children. Since we do not collect
@@ -144,9 +144,9 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#A78BFA]/10">
                 <FileEdit className="h-4 w-4 text-[#A78BFA]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Changes to This Policy</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Changes to This Policy</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 We may update this Privacy Policy from time to time to reflect changes in our
                 practices or for other operational, legal, or regulatory reasons. When we make
@@ -164,9 +164,9 @@ export default function PrivacyPage() {
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                 <Mail className="h-4 w-4 text-[#00D9FF]" />
               </div>
-              <h2 className="text-xl font-bold text-[#E2E8F0]">Contact Us</h2>
+              <h2 className="text-xl font-bold text-[#F1F5F9]">Contact Us</h2>
             </div>
-            <div className="rounded-xl border border-[#334155] bg-[#1E293B] p-6">
+            <div className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6">
               <p className="text-[#94A3B8] leading-relaxed">
                 If you have any questions, concerns, or suggestions about this Privacy Policy or
                 our privacy practices, please contact us at contact@devtoolshub.com. We take

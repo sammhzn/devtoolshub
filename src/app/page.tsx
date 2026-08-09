@@ -135,7 +135,7 @@ function KeyboardShortcutListener() {
 export default function Home() {
   return (
     <NavigationProvider>
-      <div className="flex min-h-screen flex-col bg-[#0F172A]">
+      <div className="flex min-h-screen flex-col bg-[#0A0E27]">
         <KeyboardShortcutListener />
         <Header />
         <main className="flex-1">

@@ -32,9 +32,9 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="border-y border-[#334155] bg-[#0B1120]">
+    <section className="border-y border-[#334155] bg-[#0F172A]">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
-        <h2 className="mb-10 text-center text-2xl font-bold sm:text-3xl">
+        <h2 className="mb-10 text-center text-2xl font-bold text-[#F1F5F9] sm:text-[28px]">
           Why Developers Choose Us
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -43,12 +43,12 @@ export default function Benefits() {
             return (
               <div
                 key={b.title}
-                className="rounded-xl border border-[#334155] bg-[#1E293B] p-6"
+                className="rounded-xl border border-[#334155] bg-[#1A1F3A] p-6"
               >
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[#00D9FF]/10">
                   <Icon className="h-5 w-5 text-[#00D9FF]" />
                 </div>
-                <h3 className="mb-2 font-semibold text-[#E2E8F0]">{b.title}</h3>
+                <h3 className="mb-2 text-lg font-semibold text-[#F1F5F9]">{b.title}</h3>
                 <p className="text-sm leading-relaxed text-[#94A3B8]">
                   {b.description}
                 </p>

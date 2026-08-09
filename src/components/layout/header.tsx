@@ -87,7 +87,7 @@ export default function Header() {
               />
             </button>
             {dropdownOpen && (
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-lg border border-[#334155] bg-[#1E293B] p-2 shadow-xl">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-lg border border-[#334155] bg-[#1A1F3A] p-2 shadow-xl">
                 {['Text & Encoding', 'Hash & Security', 'Utilities'].map((cat) => (
                   <div key={cat}>
                     <div className="px-2 py-1.5 text-xs font-semibold uppercase tracking-wider text-[#94A3B8]">
@@ -100,7 +100,7 @@ export default function Header() {
                         <button
                           key={tool.id}
                           onClick={() => handleNavClick({ type: 'tool', toolId: tool.id })}
-                          className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-sm text-[#E2E8F0] transition-colors hover:bg-[#334155] hover:text-[#00D9FF]"
+                          className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-sm text-[#F1F5F9] transition-colors hover:bg-[#334155] hover:text-[#00D9FF]"
                         >
                           <tool.icon className="h-3.5 w-3.5" />
                           {tool.name}
@@ -157,24 +157,24 @@ export default function Header() {
                       setSearchQuery('');
                     }
                   }}
-                  className="w-64 rounded-lg border border-[#334155] bg-[#1E293B] py-1.5 pl-9 pr-8 text-sm text-[#E2E8F0] placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF]"
+                  className="w-64 rounded-lg border border-[#334155] bg-[#1A1F3A] py-1.5 pl-9 pr-8 text-sm text-[#F1F5F9] placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF]"
                 />
                 <button
                   onClick={() => {
                     setSearchOpen(false);
                     setSearchQuery('');
                   }}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 text-[#94A3B8] hover:text-[#E2E8F0]"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 text-[#94A3B8] hover:text-[#F1F5F9]"
                 >
                   <X className="h-4 w-4" />
                 </button>
                 {searchResults.length > 0 && (
-                  <div className="absolute left-0 top-full mt-1 w-full rounded-lg border border-[#334155] bg-[#1E293B] py-1 shadow-xl">
+                  <div className="absolute left-0 top-full mt-1 w-full rounded-lg border border-[#334155] bg-[#1A1F3A] py-1 shadow-xl">
                     {searchResults.map((tool) => (
                       <button
                         key={tool.id}
                         onClick={() => handleSearchSelect(tool.id)}
-                        className="flex w-full items-center gap-2 px-3 py-2 text-sm text-[#E2E8F0] transition-colors hover:bg-[#334155] hover:text-[#00D9FF]"
+                        className="flex w-full items-center gap-2 px-3 py-2 text-sm text-[#F1F5F9] transition-colors hover:bg-[#334155] hover:text-[#00D9FF]"
                       >
                         <tool.icon className="h-4 w-4" />
                         <div className="text-left">
@@ -193,7 +193,7 @@ export default function Header() {
               >
                 <Search className="h-4 w-4" />
                 <span className="hidden lg:inline">Search</span>
-                <kbd className="hidden lg:inline-flex h-5 items-center rounded border border-[#334155] bg-[#1E293B] px-1.5 text-xs text-[#94A3B8]">
+                <kbd className="hidden lg:inline-flex h-5 items-center rounded border border-[#334155] bg-[#1A1F3A] px-1.5 text-xs text-[#94A3B8]">
                   /
                 </kbd>
               </button>
@@ -220,16 +220,16 @@ export default function Header() {
               placeholder="Search tools..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full rounded-lg border border-[#334155] bg-[#1E293B] py-2 pl-9 pr-4 text-sm text-[#E2E8F0] placeholder-[#94A3B8] outline-none focus:border-[#00D9FF]"
+              className="w-full rounded-lg border border-[#334155] bg-[#1A1F3A] py-2 pl-9 pr-4 text-sm text-[#F1F5F9] placeholder-[#94A3B8] outline-none focus:border-[#00D9FF]"
             />
           </div>
           {searchResults.length > 0 && (
-            <div className="mt-1 rounded-lg border border-[#334155] bg-[#1E293B] py-1">
+            <div className="mt-1 rounded-lg border border-[#334155] bg-[#1A1F3A] py-1">
               {searchResults.map((tool) => (
                 <button
                   key={tool.id}
                   onClick={() => handleSearchSelect(tool.id)}
-                  className="flex w-full items-center gap-2 px-3 py-2 text-sm text-[#E2E8F0] hover:bg-[#334155] hover:text-[#00D9FF]"
+                  className="flex w-full items-center gap-2 px-3 py-2 text-sm text-[#F1F5F9] hover:bg-[#334155] hover:text-[#00D9FF]"
                 >
                   <tool.icon className="h-4 w-4" />
                   {tool.name}
@@ -240,19 +240,19 @@ export default function Header() {
           <div className="mt-3 space-y-1">
             <button
               onClick={() => handleNavClick({ type: 'tools' })}
-              className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-[#E2E8F0] hover:bg-[#1E293B] hover:text-[#00D9FF]"
+              className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-[#F1F5F9] hover:bg-[#1A1F3A] hover:text-[#00D9FF]"
             >
               All Tools
             </button>
             <button
               onClick={() => handleNavClick({ type: 'blog' })}
-              className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-[#E2E8F0] hover:bg-[#1E293B] hover:text-[#00D9FF]"
+              className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-[#F1F5F9] hover:bg-[#1A1F3A] hover:text-[#00D9FF]"
             >
               Blog
             </button>
             <button
               onClick={() => handleNavClick({ type: 'about' })}
-              className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-[#E2E8F0] hover:bg-[#1E293B] hover:text-[#00D9FF]"
+              className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-[#F1F5F9] hover:bg-[#1A1F3A] hover:text-[#00D9FF]"
             >
               About
             </button>

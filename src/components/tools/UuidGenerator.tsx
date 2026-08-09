@@ -170,7 +170,7 @@ export default function UuidGenerator() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0F172A] text-[#E2E8F0]">
+    <div className="min-h-screen bg-[#0A0E27] text-[#F1F5F9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
         {/* Header */}
@@ -197,7 +197,7 @@ export default function UuidGenerator() {
                 className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 ${
                   version === 'v4'
                     ? 'bg-[#00D9FF]/10 border border-[#00D9FF] text-[#00D9FF]'
-                    : 'bg-[#1E293B] border border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
+                    : 'bg-[#1A1F3A] border border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
                 }`}
               >
                 <Zap className="h-4 w-4" />
@@ -208,7 +208,7 @@ export default function UuidGenerator() {
                 className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 ${
                   version === 'v1'
                     ? 'bg-[#A78BFA]/10 border border-[#A78BFA] text-[#A78BFA]'
-                    : 'bg-[#1E293B] border border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
+                    : 'bg-[#1A1F3A] border border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
                 }`}
               >
                 <Fingerprint className="h-4 w-4" />
@@ -224,7 +224,7 @@ export default function UuidGenerator() {
               className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium border transition-all ${
                 withoutHyphens
                   ? 'bg-[#A78BFA]/10 border-[#A78BFA] text-[#A78BFA]'
-                  : 'bg-[#1E293B] border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
+                  : 'bg-[#1A1F3A] border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
               }`}
             >
               <Minus className="h-4 w-4" />
@@ -242,7 +242,7 @@ export default function UuidGenerator() {
           </button>
 
           {/* Bulk Generation */}
-          <div className="border border-[#334155] rounded-lg p-4 bg-[#1E293B] space-y-3">
+          <div className="border border-[#334155] rounded-lg p-4 bg-[#1A1F3A] space-y-3">
             <h3 className="text-sm font-semibold flex items-center gap-2">
               <Layers className="h-4 w-4 text-[#A78BFA]" />
               Bulk Generation
@@ -256,7 +256,7 @@ export default function UuidGenerator() {
                   onChange={(e) => setBulkCount(e.target.value)}
                   min="1"
                   max="1000"
-                  className="w-24 rounded-lg border border-[#334155] bg-[#0F172A] px-3 py-2 text-sm text-[#E2E8F0] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF]"
+                  className="w-24 rounded-lg border border-[#334155] bg-[#0A0E27] px-3 py-2 text-sm text-[#F1F5F9] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF]"
                 />
                 <span className="text-xs text-[#94A3B8]">(1–1000)</span>
               </div>
@@ -276,12 +276,12 @@ export default function UuidGenerator() {
               {/* Bulk actions */}
               <div className="flex items-center justify-between">
                 <span className="text-sm text-[#94A3B8]">
-                  Generated <span className="text-[#E2E8F0] font-semibold">{uuids.length}</span> UUID{uuids.length !== 1 ? 's' : ''}
+                  Generated <span className="text-[#F1F5F9] font-semibold">{uuids.length}</span> UUID{uuids.length !== 1 ? 's' : ''}
                 </span>
                 <div className="flex gap-2">
                   <button
                     onClick={handleCopyAll}
-                    className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-3 py-1.5 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-1.5 text-sm"
+                    className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-3 py-1.5 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-1.5 text-sm"
                   >
                     {copiedAll ? (
                       <span className="text-green-400">Copied All!</span>
@@ -294,7 +294,7 @@ export default function UuidGenerator() {
                   </button>
                   <button
                     onClick={handleDownload}
-                    className="bg-[#1E293B] text-[#E2E8F0] font-semibold rounded-lg px-3 py-1.5 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-1.5 text-sm"
+                    className="bg-[#1A1F3A] text-[#F1F5F9] font-semibold rounded-lg px-3 py-1.5 border border-[#334155] hover:border-[#00D9FF] transition-all flex items-center gap-1.5 text-sm"
                   >
                     <Download className="h-3.5 w-3.5" />
                     Download .txt
@@ -303,18 +303,18 @@ export default function UuidGenerator() {
               </div>
 
               {/* UUID List */}
-              <div className="border border-[#334155] rounded-lg bg-[#1E293B] overflow-hidden">
+              <div className="border border-[#334155] rounded-lg bg-[#1A1F3A] overflow-hidden">
                 <div className="max-h-[400px] overflow-y-auto">
                   {uuids.map((uuid, index) => (
                     <div
                       key={`${uuid}-${index}`}
-                      className="flex items-center justify-between px-4 py-2.5 border-b border-[#334155] last:border-b-0 hover:bg-[#0F172A]/50 transition-colors group"
+                      className="flex items-center justify-between px-4 py-2.5 border-b border-[#334155] last:border-b-0 hover:bg-[#0A0E27]/50 transition-colors group"
                     >
                       <div className="flex items-center gap-3 min-w-0">
                         <span className="text-xs text-[#94A3B8] w-8 flex-shrink-0">
                           {index + 1}.
                         </span>
-                        <span className="text-sm font-mono text-[#E2E8F0] truncate">
+                        <span className="text-sm font-mono text-[#F1F5F9] truncate">
                           {uuid}
                         </span>
                       </div>
@@ -354,7 +354,7 @@ export default function UuidGenerator() {
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                  className="w-full flex items-center justify-between p-4 text-left hover:bg-[#1E293B] transition-colors"
+                  className="w-full flex items-center justify-between p-4 text-left hover:bg-[#1A1F3A] transition-colors"
                 >
                   <span className="font-medium text-sm">{item.question}</span>
                   <ChevronDown
@@ -383,7 +383,7 @@ export default function UuidGenerator() {
                 <button
                   key={tool.id}
                   onClick={() => navigate({ type: 'tool', toolId: tool.id })}
-                  className="p-4 rounded-lg border border-[#334155] bg-[#1E293B] hover:border-[#00D9FF] hover:shadow-[0_0_20px_rgba(0,217,255,0.1)] transition-all text-left group"
+                  className="p-4 rounded-lg border border-[#334155] bg-[#1A1F3A] hover:border-[#00D9FF] hover:shadow-[0_0_20px_rgba(0,217,255,0.1)] transition-all text-left group"
                 >
                   <div className="flex items-center gap-3 mb-2">
                     <div className="p-2 rounded-md bg-[#00D9FF]/10 group-hover:bg-[#00D9FF]/20 transition-colors">

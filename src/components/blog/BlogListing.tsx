@@ -8,16 +8,16 @@ export default function BlogListing() {
   const { navigate } = useNav();
 
   return (
-    <div className="min-h-screen bg-[#0F172A]">
+    <div className="min-h-screen bg-[#0A0E27]">
       {/* Header */}
-      <div className="border-b border-[#334155] bg-[#0F172A]">
+      <div className="border-b border-[#334155] bg-[#0A0E27]">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#334155] bg-[#1E293B] px-4 py-1.5 text-sm text-[#94A3B8]">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#334155] bg-[#1A1F3A] px-4 py-1.5 text-sm text-[#94A3B8]">
               <Tag className="h-3.5 w-3.5 text-[#A78BFA]" />
               Developer Resources
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-[#E2E8F0] sm:text-5xl">
+            <h1 className="text-4xl font-bold tracking-tight text-[#F1F5F9] sm:text-5xl">
               Developer{' '}
               <span className="bg-gradient-to-r from-[#00D9FF] to-[#A78BFA] bg-clip-text text-transparent">
                 Blog
@@ -36,7 +36,7 @@ export default function BlogListing() {
           {blogPosts.map((post) => (
             <article
               key={post.slug}
-              className="group flex flex-col overflow-hidden rounded-xl border border-[#334155] bg-[#1E293B] transition-all duration-300 hover:border-[#00D9FF]/40 hover:shadow-lg hover:shadow-[#00D9FF]/5"
+              className="group flex flex-col overflow-hidden rounded-xl border border-[#334155] bg-[#1A1F3A] transition-all duration-300 hover:border-[#00D9FF]/40 hover:shadow-lg hover:shadow-[#00D9FF]/5"
             >
               {/* Category bar */}
               <div className="flex items-center justify-between border-b border-[#334155] px-5 py-3">
@@ -48,7 +48,7 @@ export default function BlogListing() {
 
               {/* Content */}
               <div className="flex flex-1 flex-col p-5">
-                <h2 className="text-xl font-semibold leading-snug text-[#E2E8F0] group-hover:text-[#00D9FF] transition-colors">
+                <h2 className="text-xl font-semibold leading-snug text-[#F1F5F9] group-hover:text-[#00D9FF] transition-colors">
                   {post.title}
                 </h2>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-[#94A3B8]">

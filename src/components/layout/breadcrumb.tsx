@@ -66,7 +66,7 @@ export default function Breadcrumb() {
                 {crumb.label}
               </button>
             ) : (
-              <span className="text-[#E2E8F0]">{crumb.label}</span>
+              <span className="text-[#F1F5F9]">{crumb.label}</span>
             )}
           </li>
         ))}

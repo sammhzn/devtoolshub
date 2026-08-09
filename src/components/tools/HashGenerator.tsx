@@ -185,7 +185,7 @@ export default function HashGenerator() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0F172A] text-[#E2E8F0]">
+    <div className="min-h-screen bg-[#0A0E27] text-[#F1F5F9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
         {/* Header */}
@@ -210,7 +210,7 @@ export default function HashGenerator() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Enter text to generate hashes..."
-              className="w-full rounded-lg border border-[#334155] bg-[#1E293B] p-4 text-sm text-[#E2E8F0] font-mono placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF] resize-y min-h-[200px]"
+              className="w-full rounded-lg border border-[#334155] bg-[#1A1F3A] p-4 text-sm text-[#F1F5F9] font-mono placeholder-[#94A3B8] outline-none focus:border-[#00D9FF] focus:ring-1 focus:ring-[#00D9FF] resize-y min-h-[200px]"
               spellCheck={false}
             />
           </div>
@@ -225,7 +225,7 @@ export default function HashGenerator() {
                   className={`px-3 py-2 rounded-lg text-sm font-medium border transition-all flex items-center gap-2 ${
                     algorithms[key]
                       ? 'bg-[#00D9FF]/10 border-[#00D9FF] text-[#00D9FF]'
-                      : 'bg-[#1E293B] border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
+                      : 'bg-[#1A1F3A] border-[#334155] text-[#94A3B8] hover:border-[#94A3B8]'
                   }`}
                 >
                   {algorithms[key] && <CheckCircle2 className="h-3.5 w-3.5" />}
@@ -250,7 +250,7 @@ export default function HashGenerator() {
               return (
                 <div
                   key={key}
-                  className="border border-[#334155] rounded-lg bg-[#1E293B] overflow-hidden"
+                  className="border border-[#334155] rounded-lg bg-[#1A1F3A] overflow-hidden"
                 >
                   <div className="flex items-center justify-between px-4 py-2.5 border-b border-[#334155]">
                     <div className="flex items-center gap-2">
@@ -276,7 +276,7 @@ export default function HashGenerator() {
                     </button>
                   </div>
                   <div className="px-4 py-3">
-                    <p className="text-xs font-mono text-[#E2E8F0] break-all leading-relaxed">
+                    <p className="text-xs font-mono text-[#F1F5F9] break-all leading-relaxed">
                       {results[key] || (
                         <span className="text-[#94A3B8]">Waiting for input...</span>
                       )}
@@ -309,7 +309,7 @@ export default function HashGenerator() {
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                  className="w-full flex items-center justify-between p-4 text-left hover:bg-[#1E293B] transition-colors"
+                  className="w-full flex items-center justify-between p-4 text-left hover:bg-[#1A1F3A] transition-colors"
                 >
                   <span className="font-medium text-sm">{item.question}</span>
                   <ChevronDown
@@ -338,7 +338,7 @@ export default function HashGenerator() {
                 <button
                   key={tool.id}
                   onClick={() => navigate({ type: 'tool', toolId: tool.id })}
-                  className="p-4 rounded-lg border border-[#334155] bg-[#1E293B] hover:border-[#00D9FF] hover:shadow-[0_0_20px_rgba(0,217,255,0.1)] transition-all text-left group"
+                  className="p-4 rounded-lg border border-[#334155] bg-[#1A1F3A] hover:border-[#00D9FF] hover:shadow-[0_0_20px_rgba(0,217,255,0.1)] transition-all text-left group"
                 >
                   <div className="flex items-center gap-3 mb-2">
                     <div className="p-2 rounded-md bg-[#00D9FF]/10 group-hover:bg-[#00D9FF]/20 transition-colors">
