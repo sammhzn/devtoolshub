@@ -1,15 +1,14 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://devtoolshub.tk';
+  const baseUrl = 'https://devtoolshub-gamma.vercel.app';
   const tools = [
-    'json-formatter', 'base64-encoder', 'hash-generator', 'url-encoder', 'uuid-generator',
-    'html-encoder', 'markdown-preview', 'text-diff', 'word-counter', 'case-converter',
-    'regex-tester', 'text-wrapper', 'password-generator', 'password-strength', 'hmac-generator',
-    'bcrypt-generator', 'timestamp-converter', 'date-calculator', 'color-converter',
-    'base-converter', 'percentage-calculator', 'json-to-csv', 'qr-code-generator',
-    'url-parser', 'jwt-decoder', 'image-to-base64', 'email-validator', 'lorem-ipsum', 'minify-json',
-  ];
+  'json-formatter',
+  'base64-encoder',
+  'hash-generator',
+  'url-encoder',
+  'uuid-generator',
+];
   
   const toolPages = tools.map((tool) => ({
     url: `${baseUrl}/${tool}`,

@@ -370,10 +370,10 @@ export const a11y = {
 // ============================================
 export const seo = {
   siteName: 'DevToolsHub',
-  siteUrl: 'https://devtoolshub.tk',
+  siteUrl: 'https://devtoolshub-gamma.vercel.app',
   homeTitle: 'DevToolsHub - 50+ Free Developer Tools Online',
   homeDescription: 'Free online developer tools including JSON formatter, Base64 encoder, hash generator, and more. No sign-up required.',
-  ogImage: 'https://devtoolshub.tk/og-image.png',
+  ogImage: 'https://devtoolshub-gamma.vercel.app/og-image.png',
   ogImageWidth: 1200,
   ogImageHeight: 630,
   toolTitleTemplate: '{toolName} - Free Online DevToolsHub',
