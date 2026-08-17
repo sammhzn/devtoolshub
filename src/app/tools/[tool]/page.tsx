@@ -13,7 +13,7 @@ const tools = {
   'json-formatter': {
     title: 'JSON Formatter & Validator Online | DevToolsHub',
     description:
-      'Format, validate, beautify, and minify JSON online for free. Check JSON syntax and make JSON easier to read directly in your browser.',
+        'Format, validate, beautify, and minify JSON online for free. Use our fast JSON formatter and validator to make JSON readable, check syntax, and fix errors.',
     Component: JsonFormatter,
   },
 
