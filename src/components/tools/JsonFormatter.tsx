@@ -163,10 +163,10 @@ export default function JsonFormatter() {
             <div className="p-2 rounded-lg bg-[#00D9FF]/10">
               <Braces className="h-6 w-6 text-[#00D9FF]" />
             </div>
-            <h1 className="text-3xl font-bold">JSON Formatter</h1>
+            <h1 className="text-3xl font-bold">JSON Formatter & Validator Online</h1>
           </div>
           <p className="text-[#94A3B8] text-lg max-w-2xl">
-            Format, validate, and minify JSON data instantly. Paste your JSON and see it formatted in real-time with syntax validation.
+             Format, validate, beautify, and minify JSON online for free. Paste your JSON to instantly check syntax, fix formatting, and make complex JSON easier to read.
           </p>
         </div>
 
@@ -275,6 +275,35 @@ export default function JsonFormatter() {
             </div>
           </div>
         </div>
+
+        {/* JSON Formatter Guide */}
+<section className="mb-12">
+  <h2 className="text-2xl font-bold mb-4">
+    What Is a JSON Formatter?
+  </h2>
+
+  <div className="space-y-4 text-[#94A3B8] leading-7">
+    <p>
+      A JSON formatter is a tool that converts compact or difficult-to-read
+      JSON into a clean, structured format with indentation and line breaks.
+      This makes JSON easier to read, understand, debug, and work with during
+      web and software development.
+    </p>
+
+    <p>
+      Our online JSON formatter also validates your JSON while you work.
+      If the JSON contains a syntax error, the validator identifies the
+      problem so you can correct it before using the data in an application,
+      API, or configuration file.
+    </p>
+
+    <p>
+      You can also minify valid JSON to remove unnecessary whitespace and
+      reduce its size. Formatting and validation happen directly in your
+      browser, so your JSON is not uploaded to our server.
+    </p>
+  </div>
+</section>
 
         {/* Learn More */}
         <div className="mb-10">
