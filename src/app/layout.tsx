@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://devtoolshub-gamma.vercel.app"),
 
-  title: "DevToolsHub - 50+ Free Developer Tools Online",
+  title: "DevToolsHub - Free Developer Tools Online",
 
   description:
     "Free online developer tools including JSON formatter, Base64 encoder, hash generator, URL encoder, UUID generator and more. No sign-up required.",

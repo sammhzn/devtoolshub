@@ -15,17 +15,17 @@ export default function Hero() {
       <div className="page-fade-in relative mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 md:py-20 lg:py-24">
         <div className="mb-4 inline-flex items-center rounded-full border border-[#334155] bg-[#1A1F3A] px-4 py-1.5 text-sm text-[#94A3B8]">
           <span className="mr-2 inline-block h-2 w-2 rounded-full bg-[#10B981]" />
-          50+ tools — 100% free, no sign-up
+          Free tools — no sign-up required
         </div>
         <h1 className="text-2xl font-bold leading-tight tracking-tight text-[#F1F5F9] sm:text-4xl md:text-5xl lg:text-6xl">
-          50+ Free Developer Tools
+          Free Developer Tools
         </h1>
         <h2 className="mt-2 text-2xl font-bold text-[#00D9FF] sm:text-3xl md:text-4xl">
           Online &amp; Instant
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-base text-[#94A3B8] md:text-lg">
-          No sign-up, no ads on first load, zero data collection. Format JSON,
-          encode Base64, generate hashes, and more — all running in your browser.
+          Fast, privacy-friendly developer tools that run directly in your browser.
+          Format JSON, encode Base64, generate hashes, and more — with no sign-up required..
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <button
