@@ -97,7 +97,7 @@ const faqItems = [
   {
     question: 'Which hash algorithm should I use?',
     answer:
-      'For security-sensitive applications like password hashing or digital signatures, use SHA-256 or SHA-512. MD5 is still useful for non-security purposes like checksums, cache keys, or deduplication. SHA-1 is deprecated for security but still used in some legacy systems.',
+      'For general-purpose cryptographic hashing, SHA-256 or SHA-512 are good choices. Do not use MD5 or SHA-1 for security-sensitive applications. For password storage, use a dedicated password-hashing algorithm such as Argon2id, bcrypt, scrypt, or PBKDF2 rather than SHA-256 or SHA-512 directly.',
   },
   {
     question: 'Are these hashes salted?',

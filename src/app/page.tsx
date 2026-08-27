@@ -118,7 +118,7 @@ function PageRouter() {
 }
 
 function KeyboardShortcutListener() {
-  const { navigate } = useNav();
+  
   useEffect(() => {
     function handleKey(e: KeyboardEvent) {
       if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
