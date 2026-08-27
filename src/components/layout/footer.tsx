@@ -20,8 +20,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-3 text-sm text-[#94A3B8]">
-              50+ free developer tools that work instantly in your browser. No
-              sign-up, no ads on first load, zero data collection.
+              Free developer tools that work instantly in your browser. No sign-up,
+              no unnecessary complexity, and your data stays in your browser.
             </p>
           </div>
 
